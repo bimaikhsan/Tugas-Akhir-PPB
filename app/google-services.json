@@ -1,33 +1,34 @@
 {
   "project_info": {
-    "project_number": "743189252149",
-    "project_id": "tugas-akhir-ppb-7dc8c",
-    "storage_bucket": "tugas-akhir-ppb-7dc8c.appspot.com"
+    "project_number": "832835913167",
+    "firebase_url": "https://tugas-akhir-ppb-f098c-default-rtdb.firebaseio.com",
+    "project_id": "tugas-akhir-ppb-f098c",
+    "storage_bucket": "tugas-akhir-ppb-f098c.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:743189252149:android:04fec3d53f61e6ade2c97c",
+        "mobilesdk_app_id": "1:832835913167:android:f55748079c318b1fd07eba",
         "android_client_info": {
           "package_name": "tugasakhirppb.com"
         }
       },
       "oauth_client": [
         {
-          "client_id": "743189252149-3ttfdnff2gtacc8smo9sca6e1ndlgul9.apps.googleusercontent.com",
+          "client_id": "832835913167-lbcki232un9k6bu2iptd7qha5ibu9ar7.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBkx7mFuA2QwA5cskjeSRwczPV3zPC5kV8"
+          "current_key": "AIzaSyCe-NJCrV25GRP9Xw2FhJckMPEzlBuWJ7k"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "743189252149-3ttfdnff2gtacc8smo9sca6e1ndlgul9.apps.googleusercontent.com",
+              "client_id": "832835913167-lbcki232un9k6bu2iptd7qha5ibu9ar7.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
