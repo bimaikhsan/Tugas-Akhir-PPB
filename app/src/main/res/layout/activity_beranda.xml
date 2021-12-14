@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".beranda">
+
+  <ImageView
+      android:id="@+id/imageView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:srcCompat="@drawable/bg" />
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="#9743A047"
+      android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="373dp"
+        android:layout_height="86dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="619dp"
+        android:text="Selamat Datang Member"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="567dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="31dp"
+        android:background="#90FFFFFF"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="361dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="556dp"
+        android:text="Pilih aktivitas anda hari ini"
+        android:textAlignment="center"
+        android:textColor="#353535"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/jadwal"
+        android:layout_width="500dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="480dp"
+        android:background="#BE039BE5"
+        app:srcCompat="@drawable/jadwal" />
+
+    <ImageButton
+        android:id="@+id/daftar"
+        android:layout_width="500dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="380dp"
+        android:background="#BE039BE5"
+        app:srcCompat="@drawable/daftar" />
+
+    <ImageButton
+        android:id="@+id/berita"
+        android:layout_width="500dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="276dp"
+        android:background="#BE039BE5"
+        app:srcCompat="@drawable/berita" />
+
+    <ImageButton
+        android:id="@+id/info"
+        android:layout_width="500dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="180dp"
+        android:background="#BE039BE5"
+        app:srcCompat="@drawable/info" />
+
+    <ImageButton
+        android:id="@+id/logout"
+        android:layout_width="500dp"
+        android:layout_height="55dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="80dp"
+        android:background="#CBF13B3B"
+        app:srcCompat="@drawable/logout" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="175dp"
+        android:layout_marginBottom="480dp"
+        android:text="JADWAL"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="175dp"
+        android:layout_marginBottom="380dp"
+        android:text="DAFTAR"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="147dp"
+        android:layout_marginBottom="280dp"
+        android:text="BERITA OLAHRAGA"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="175dp"
+        android:layout_marginBottom="180dp"
+        android:text="TENTANG"
+        android:textColor="@color/white" />
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="178dp"
+        android:layout_marginBottom="80dp"
+        android:text="KELUAR"
+        android:textColor="@color/white" />
+
+  </RelativeLayout>
+</RelativeLayout>

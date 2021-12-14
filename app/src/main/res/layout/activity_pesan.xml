@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".pesan">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bg" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#9743A047"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="619dp"
+            android:text="Pesan Lapangan"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="528dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="61dp"
+            android:background="#90FFFFFF"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="361dp"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="203dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="493dp"
+            android:text="Isi data berikut"
+            android:textAlignment="center"
+            android:textColor="#353535"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="151dp"
+            android:layout_marginBottom="267dp"
+            android:text="Pilih Jam :"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/lapangan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="61dp"
+            android:layout_marginTop="375dp"
+            android:layout_marginEnd="46dp"
+            android:layout_marginBottom="308dp"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="130dp"
+            android:layout_marginBottom="355dp"
+            android:text="Pilih Lapangan :"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/tanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="98dp"
+            android:layout_marginBottom="396dp"
+            android:ems="10"
+            android:inputType="date" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="143dp"
+            android:layout_marginBottom="456dp"
+            android:text="Pilih Tanggal :"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/jam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="470dp"
+            android:layout_marginEnd="47dp"
+            android:layout_marginBottom="213dp"
+            android:inputType="time" />
+
+
+        <ImageButton
+            android:id="@+id/pesan"
+            android:layout_width="500dp"
+            android:layout_height="55dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="128dp"
+            android:background="#C400897B"
+            app:srcCompat="@drawable/regis" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="179dp"
+            android:layout_marginBottom="129dp"
+            android:text="PESAN"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
