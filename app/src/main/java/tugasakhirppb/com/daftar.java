@@ -51,5 +51,7 @@ public class daftar extends AppCompatActivity {
     public void masuk (){
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
+        finish();
+
     }
 }

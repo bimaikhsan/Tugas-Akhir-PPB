@@ -60,8 +60,26 @@
         android:layout_marginBottom="556dp"
         android:text="Pilih aktivitas anda hari ini"
         android:textAlignment="center"
-        android:textColor="#353535"
+        android:textColor="@color/white"
         android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="361dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="161dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="535dp"
+        android:text="Username"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
 
     <ImageButton
         android:id="@+id/jadwal"
@@ -137,7 +155,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="175dp"
         android:layout_marginBottom="380dp"
-        android:text="DAFTAR"
+        android:text="PESAN"
         android:textColor="@color/white" />
 
     <TextView

@@ -3,7 +3,9 @@ package tugasakhirppb.com;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -27,10 +29,13 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         login=findViewById(R.id.login);
         regis=findViewById(R.id.daftar);
-
+        SharedPreferences sharedPreferences = getSharedPreferences("Login", MODE_PRIVATE);
+        String mUser = sharedPreferences.getString("username","");
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myref = database.getReference("user");
-
+        if (mUser != ""){
+            Login();
+        }
         EditText username = findViewById(R.id.username);
         EditText password = findViewById(R.id.password);
         login.setOnClickListener(new View.OnClickListener() {
@@ -44,6 +49,9 @@ public class MainActivity extends AppCompatActivity {
                             for (DataSnapshot user : snapshot.getChildren()) {
                                 String getPassword = user.child("password").getValue(String.class);
                                 if (password.getText().toString().equals(getPassword)) {
+                                    SharedPreferences.Editor editor = sharedPreferences.edit();
+                                    editor.putString("username",username.getText().toString());
+                                    editor.apply();
                                     Toast.makeText(MainActivity.this,"Berhasil login",Toast.LENGTH_SHORT).show();
                                     Login();
                                 }else{
@@ -73,9 +81,12 @@ public class MainActivity extends AppCompatActivity {
     public void Login (){
         Intent intent = new Intent(this, beranda.class);
         startActivity(intent);
+        finish();
     }
     public void Daftar (){
         Intent intent = new Intent(this, daftar.class);
         startActivity(intent);
+        finish();
+
     }
 }

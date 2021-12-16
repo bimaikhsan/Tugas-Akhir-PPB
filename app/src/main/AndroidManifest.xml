@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TugasAkhirPPB">
         <activity
+            android:name=".TentangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JadwalActivity"
+            android:exported="false" />
+        <activity
             android:name=".berita"
             android:exported="true" />
         <activity

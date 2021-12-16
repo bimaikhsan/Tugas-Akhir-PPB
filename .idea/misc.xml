@@ -3,8 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/sholikin/TugasAkhirPPB/app/src/main/res/layout/activity_beranda.xml" value="0.2" />
+        <entry key="..\:/sholikin/TugasAkhirPPB/app/src/main/res/layout/activity_beranda.xml" value="0.33" />
+        <entry key="..\:/sholikin/TugasAkhirPPB/app/src/main/res/layout/activity_berita.xml" value="0.2" />
+        <entry key="..\:/sholikin/TugasAkhirPPB/app/src/main/res/layout/activity_daftar.xml" value="0.4" />
+        <entry key="..\:/sholikin/TugasAkhirPPB/app/src/main/res/layout/activity_jadwal.xml" value="0.2" />
         <entry key="..\:/sholikin/TugasAkhirPPB/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/sholikin/TugasAkhirPPB/app/src/main/res/layout/activity_pesan.xml" value="0.2" />
+        <entry key="..\:/sholikin/TugasAkhirPPB/app/src/main/res/layout/activity_tentang.xml" value="0.33" />
+        <entry key="..\:/sholikin/TugasAkhirPPB/app/src/main/res/layout/list_item.xml" value="0.2" />
       </map>
     </option>
   </component>
